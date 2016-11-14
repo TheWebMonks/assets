@@ -1,0 +1,60 @@
+/* Code - copy/paste from poole.css*/
+body{
+    color: #515151;
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    background-image: url("../images/kiwi.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left bottom;
+    background-size: 300px;
+}
+h1{font-weight: bold; line-height: 1.25; color: #313131;}
+h1 a{text-decoration: none;}
+h1 a:hover {text-decoration: underline;}
+h1 a:visited {color: #313131;}
+
+code, pre {
+    font-family: Menlo, Monaco, "Courier New", monospace;
+}
+code {
+    padding: .25em .5em;
+    font-size: 85%;
+    color: #45D40C;
+    border-radius: 3px;
+}
+pre {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    font-size: .90rem;
+    line-height: 1.4;
+    white-space: pre;
+    white-space: pre-wrap;
+    word-break: break-all;
+    word-wrap: break-word;
+    /*background-color: #f9f9f9;*/
+    background-color: #141414;
+}
+pre code {
+    padding: 0;
+    font-size: 100%;
+    background-color: transparent;
+}
+
+.highlight pre {
+    margin-bottom: 0;
+}
+
+.content {
+    width:50%;
+    margin:0 auto;
+}
+
+footer {
+    width: 50%;
+    margin:30px auto 0 auto;
+    font-size: .75em;
+    line-height: 1.6em;
+}
