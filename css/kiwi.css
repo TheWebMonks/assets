@@ -78,9 +78,10 @@ https://github.com/mattboldt/typed.js/#install-with-bower
 */
 .typed-cursor{
     opacity: 1;
-    -webkit-animation: blink 0.7s infinite;
-    -moz-animation: blink 0.7s infinite;
-    animation: blink 0.7s infinite;
+    color: #45D40C;
+    -webkit-animation: blink 1s infinite;
+    -moz-animation: blink 1s infinite;
+    animation: blink 1s infinite;
 }
 @keyframes blink{
     0% { opacity:1; }
