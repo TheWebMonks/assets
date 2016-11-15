@@ -6,8 +6,8 @@ body{
     background-image: url("../images/kiwi.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: left bottom;
-    background-size: 300px;
+    background-position: -70px bottom;
+    background-size: 250px;
 }
 h1{font-weight: bold; line-height: 1.25; color: #303030;}
 h1 a{text-decoration: none;color:#303030;}
