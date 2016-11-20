@@ -1,19 +1,21 @@
 /* Code - copy/paste from poole.css*/
 body{
     color: #515151;
-    font-size: 20px;
     font-family: "Raleway", sans-serif;
     background-image: url("../images/kiwi.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: -70px bottom;
-    background-size: 200px;
+    background-position: -60px bottom;
+    background-size: 160px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
-h1{font-weight: bold; line-height: 1.25; color: #303030;}
+h1{font-weight: bold; line-height: 1.25; color: #303030;margin-top:0;}
 h1 a{text-decoration: none;color:#303030;}
 h1 a:hover {text-decoration: underline;color:#303030;}
 h1 a:visited {color: #303030;}
 h1 a:link{color:#303030;}
+p {font-size: 20px;}
 
 code, pre {
     font-family: Menlo, Monaco, "Courier New", monospace;
@@ -21,15 +23,18 @@ code, pre {
 code {
     padding: .25em .5em;
     font-size: 85%;
-    color: #45D40C;
+
     border-radius: 3px;
 }
 pre {
+    color: #45D40C;
+    border: 0;
+    border-radius: 0;
     display: block;
     margin-top: 0;
-    margin-bottom: 1rem;
-    padding: 1rem;
-    font-size: .90rem;
+    margin-bottom: 0;
+    padding: 1.5rem;
+    font-size: 1.4rem;
     line-height: 1.4;
     white-space: pre;
     white-space: pre-wrap;
@@ -39,9 +44,8 @@ pre {
     background-color: #141414;
 }
 
-code a:visited {
-    color: #45D40C;
-}
+code a {color: #45D40C !important; text-decoration: underline;}
+code a:visited {color: #45D40C !important;}
 
 pre code {
     padding: 0;
@@ -53,24 +57,8 @@ pre code {
     margin-bottom: 0;
 }
 
-.content {
-    width:50%;
-    margin:0 auto;
-}
-
 footer {
-    width: 50%;
-    margin:40px auto 0 auto;
-    font-size: .70em;
-    line-height: 1.7em;
-}
-
-.clearfix:after {
-   content: " "; /* Older browser do not support empty content */
-   visibility: hidden;
-   display: block;
-   height: 0;
-   clear: both;
+    margin-top:40px !important;
 }
 
 /*
@@ -97,4 +85,14 @@ https://github.com/mattboldt/typed.js/#install-with-bower
     0% { opacity:1; }
     50% { opacity:0; }
     100% { opacity:1; }
+}
+
+.container-fluid {
+    margin: 0 auto 20px auto;
+    max-width: 700px;
+    padding: 0;
+}
+
+@media (max-width: 500px) {
+    .nav {display: none;}
 }
