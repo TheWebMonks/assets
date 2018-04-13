@@ -1,3 +1,7 @@
+# Image Magick
+
+
+
 # WordPress snippets
 
 Custom snippets used in WordPress.
